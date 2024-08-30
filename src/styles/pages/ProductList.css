@@ -1,0 +1,17 @@
+.order-summary {
+    padding-left: 20px;
+  }
+  
+  .order-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .order-details h4 {
+    margin-top: 10px;
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  

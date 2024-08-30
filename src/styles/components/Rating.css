@@ -1,0 +1,17 @@
+.rating-container {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between stars and count */
+  }
+  
+  .stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rating-count {
+    font-size: 0.9em;
+    color: gray;
+    margin-left: 5px; /* Space between stars and count */
+  }
+  

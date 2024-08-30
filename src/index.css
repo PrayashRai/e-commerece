@@ -1,0 +1,131 @@
+/* Import component-specific styles */
+@import './styles/components/Header.css';
+@import './styles/components/Navbar.css';
+@import './styles/components/Dropdown.css';
+@import './styles/components/FavoriteIcon.css';
+@import './styles/components/Product.css';
+@import './styles/components/Rating.css';
+@import './styles/components/Menu.css';
+@import './styles/components/Cart.css';
+
+/* Import page-specific styles */
+@import './styles/pages/ProductList.css';
+@import './styles/pages/WishlistPage.css';
+
+body {
+  background-color: rgb(249, 249, 249);
+  margin: 0;
+  padding: 10px; /* Adjust the padding as needed */
+  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+img {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+  object-fit: contain;
+ 
+}
+
+.btn {
+  width: 100%; /* Make button full-width */
+  margin-top: 10px; /* Space above the button */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Adjust button color */
+  border-color: #007bff;
+  font-size: 0.9rem;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 20px; /* Adds space between cards */
+}
+
+.favorite-icon-top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.img-gap {
+  margin-top: 20px; /* Adjust as needed for spacing from the top */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card-body .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+/* quantity control */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #c1c1c1; /* Border color */
+  border-radius: 50%; /* Makes the button circular */
+  background-color: #fff; /* Background color */
+  color: #007bff; /* Text color */
+  font-size: 16px; /* Font size */
+  line-height: 1; /* Align text vertically */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.quantity-controls button:hover {
+  background-color: #374655; /* Background color on hover */
+  color: #dedede; /* Text color on hover */
+  border-color: #babcbe; /* Border color on hover */
+}
+
+.quantity-controls span {
+  min-width: 40px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+/* delete icon  */
+.delete-icon {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.delete-icon:hover {
+  color: red;
+  text-shadow: 0 0 8px rgba(255, 0, 0, 0.8);
+}
+
+
+/*logout icon*/
+
+/* Add this to your CSS file */
+.logout-item {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logout-item:hover {
+  background-color: red;
+  color: white;
+  box-shadow: 0 0 8px rgba(255, 0, 0, 0.8);
+}
+
+.logout-icon {
+  margin-right: 8px;
+}

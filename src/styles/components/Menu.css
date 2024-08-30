@@ -1,0 +1,29 @@
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px; /* Adjust space between cart and menu icons */
+  }
+  
+  .cart-icon-wrapper, .menu-icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon, .menu-icon {
+    font-size: 2.5rem; /* Adjust the size to match */
+    cursor: pointer;
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+  }
+  

@@ -1,0 +1,18 @@
+.wrapper {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 10px 5px #888;
+  }
+  
+  .card-title {
+    white-space: nowrap; /* Prevents the text from wrapping to the next line */
+    overflow: hidden; /* Hides the overflow text */
+    text-overflow: ellipsis; /* Adds the ellipsis (...) */
+  }
+  
+  .custom-gap .col-sm-3 {
+    margin-bottom: 15px; /* Add bottom margin */
+  }
+  

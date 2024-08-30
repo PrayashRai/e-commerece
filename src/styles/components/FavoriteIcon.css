@@ -1,0 +1,16 @@
+.card {
+  position: relative; /* Make the card container relatively positioned */
+}
+
+.favorite-icon {
+  position: absolute; /* Position it absolutely within the card */
+
+  right: 10px; /* Distance from the right edge */
+  cursor: pointer;
+  color: gray;
+  transition: color 0.3s ease;
+}
+
+.favorite-icon-active {
+  color: red; /* Glowing red color when favorited */
+}

@@ -1,0 +1,32 @@
+/* style/components/Navbar.css */
+
+.nav {
+    padding: 0;
+    margin: 0;
+    gap: 120px;
+  }
+  
+  .nav-link {
+    color: black; /* Ensure default color is black */
+    cursor: pointer; /* Added cursor style here */
+  }
+  
+  hr {
+    height: 0.3px; /* Adjust thickness as needed */
+    background-color: #e3e0e0; /* Color of the hr line */
+    margin: 9px; /* Remove default margin */
+    box-shadow: 0 10px 10px rgba(170, 162, 162, 0.1); /* Shadow effect */
+  }
+  
+  .nav-link {
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    /* Glow effect using box-shadow */
+    box-shadow: 0 0 10px#229799; /* You can customize the color and intensity */
+    
+    /* Optional: Adding a slight scale effect */
+    transform: scale(1.05);
+  }
+  

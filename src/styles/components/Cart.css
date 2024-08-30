@@ -1,0 +1,24 @@
+
+.product-list {
+    border-right: 3px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .product-item {
+    border-bottom: 3px solid #eee;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-item:last-child {
+    border-bottom: none;
+  }
+  
+  .product-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+  

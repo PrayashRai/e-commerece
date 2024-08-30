@@ -1,0 +1,98 @@
+
+/* Header.css */
+.header {
+  margin: 0 1rem;
+  padding: 1rem 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.menu-icon-wrapper {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  z-index: 1000;
+  padding: 0.5rem;
+  display: none; /* Hide by default */
+}
+
+.dropdown-menu.show {
+  display: block; /* Show when active */
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-icon {
+  margin-right: 0.5rem;
+}
+
+.account-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.account-icon {
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.cart-icon-wrapper {
+  position: relative;
+  padding-right: 5px;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.cart-badge {
+  position: relative;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding-right: 50%;
+  font-size: 0.8rem;
+}
