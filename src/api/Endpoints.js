@@ -8,6 +8,7 @@ const Endpoints = {
   LOGIN_URL: `${Constants.BASE_URL}auth/login`, // URL for registering a new user
 };
 
+
 export default Endpoints;
 
 // SUB_CATEGORY_URL: `${Constants.BASE_URL}subcategory`
